@@ -1,0 +1,13 @@
+interface:
+  display_name: K-Loop｜长项目分轮推进与可恢复交付法
+  short_description: 先讨论计划，确认后分轮执行；保存真实成果与状态，支持恢复、验收及阶段接续。
+  default_prompt: 使用 $k-loop 规划这个长项目；第一轮只讨论计划，确认后再进入 K0，并逐轮交付可恢复成果。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
